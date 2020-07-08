@@ -1,0 +1,17 @@
+h1 {
+    color: blue;
+}
+
+.div1 {
+    height: 200px;
+    border: 2px solid blue;
+}
+
+.list-group-item:first-child {
+    margin-top: 10px;
+    border-radius: 0px;
+}
+
+.list-group-item:last-child {
+    margin-bottom: 10px;
+}

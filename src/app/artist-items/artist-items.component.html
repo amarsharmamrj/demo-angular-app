@@ -1,0 +1,13 @@
+<div class="media">
+    <!-- <img src="{{'./assets/images/' + artist.shortname + '_tn.jpg'}}" alt="{{'Image of' + artist.name}}" class="mr-2" style="width:70px"> -->
+    <!-- images loaded before some scripts load after the body tag-->
+
+    <img [src]="'./assets/images/' + artist.shortname + '_tn.jpg'" alt="{{'Image of' + artist.name}}" class="mr-2" style="width:70px">
+    <!--images loaded after the scripts loaded that are polaced after the body tag-->
+    <div class="media-body align-self-center">
+        <h5 class="m-0">{{artist.name }}</h5>
+        {{artist.reknown}}
+    </div>
+    <!-- media body -->
+</div>
+<!-- media -->
